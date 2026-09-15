@@ -84,9 +84,14 @@ a{
 
 .images-container p{
     text-align: center;
-    font-size: 16.5px;
-    width: 150px;
+    font-size: 15px;
+    width: 210px;
     color: rgb(80, 80, 80);
+}
+
+.images-container img{
+    border: 5px solid #3882F6;
+    border-radius: 5px;
 }
 
 .box1, .box2, .box3, .box4{
