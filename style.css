@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    font-family: roboto;
+}
+
+header, .hero-section, footer {
+    background-color: #1F2937;
+}
+
+header{
+    padding: 30px 250px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    font-size: 17px;
+    display: flex;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.navbar h4{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-section{
+    padding: 100px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    width: 430px;
+}
+
+.head h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.head p{
+    font-size: 17px;
+    color: #E5E7EB;
+    padding: 10px 0;
+}
+
+.head button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0;
+    color: #F9FAF8;
+    padding: 6px 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#information{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.images-container {
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    gap: 50px;
+}
+
+.images-container div{
+    text-align: center;
+    display: flex;
+}
+
+.images-container p{
+    text-align: center;
+    font-size: 16.5px;
+    width: 150px;
+    color: rgb(80, 80, 80);
+}
+
+.box1, .box2, .box3, .box4{
+    flex-direction: column;
+    text-align: center;
+}
+
+#information h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 6% 25%;
+}
+
+#quote h4{
+    text-align: right;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#action {
+    background-color: #3882F6;
+    margin: 100px 250px;
+    border-radius: 5px;
+    padding: 50px 100px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.par h4{
+    font-size: 20px;
+}
+
+#action button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 6px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    height: fit-content;
+}
+
+footer{
+    font-size: 15px;
+    padding: 30px;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+
